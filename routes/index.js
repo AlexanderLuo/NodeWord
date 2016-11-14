@@ -14,15 +14,15 @@ router.get('/test',function(req,res){
     var options={
         host:"www.biquge.com",
         path:"/13_13453/7436033.html",
-        headers: {
-            "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-            "Accept-Encoding":"gzip, deflate, sdch, br",
-            "Accept-Language":"zh-CN,zh;q=0.8",
-            "Cache-Control":"max-age=0",
-            "Connection":"keep-alive",
-            "Upgrade-Insecure-Requests":1,
-            "User-Agent:":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
-        }
+        //headers: {
+        //    "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        //    "Accept-Encoding":"gzip, deflate, sdch, br",
+        //    "Accept-Language":"zh-CN,zh;q=0.8",
+        //    "Cache-Control":"max-age=0",
+        //    "Connection":"keep-alive",
+        //    "Upgrade-Insecure-Requests":1,
+        //    "User-Agent:":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+        //}
     }
 
     http.get(options, function(ress) {
